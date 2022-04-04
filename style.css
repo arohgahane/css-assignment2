@@ -1,0 +1,178 @@
+html{
+    background-image: url(./wall.jpg);
+    border: 10px groove lightgreen;
+    font-size: 16px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nbar{
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+    border-radius: 25px;
+}
+
+.bar1{
+    width: 350px;
+    height: 110px;
+    padding: 30px 50px 0px 0px;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    border-radius: 35px;
+    position: relative;
+    left: -10px;
+    top: 10px;
+}
+
+.bar2{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 30px 50px 0px 120px;
+    font-size: 1.5rem;
+    font-style: italic;
+    /* text-align: center; */
+    position: relative;
+    top: 25px;
+    left: -290px;
+}
+
+.bar3{
+    width: 250px;
+    height: 120px;
+    padding: 20px 70px 0px 70px;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 35px;
+    position: relative;
+    right: -10px;
+    top: 10px;
+}
+
+.circlebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.circle{
+    width: 450px;
+    height: 450px;
+    border: 15px solid grey;
+    background-color: #31a095;
+    border-radius: 50%;
+    font-size: 1.65rem;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 300px;
+    left: -100px;
+}
+
+.circle1{
+    position: relative;
+    top: 110px;
+    text-align: center;
+}
+
+.info{
+    width: 450px;
+    height: 750px;
+    border: 10px dashed red;
+    background-color: white;
+    color: red;
+    font-size: 1.25rem;
+    font-weight: bold;
+    position: relative;
+    left: -100px;
+    top: 100px;
+    text-align: center;
+    
+}
+
+.info1{
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+    border-style: none;
+}
+
+::placeholder{
+    text-align: center;
+    color: black;
+}
+
+.info2{
+    width: 170px;
+    text-align: center;
+    color: black;
+}
+
+.bar4{
+    width:500px;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 50px;
+    position: relative;
+    top: 140px;
+    left: 50px;
+}
+
+.heading{
+    border-top: 2px solid grey;
+    position: relative;
+    top: 150px;   
+}
+
+.food{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 200px;
+    /* padding-bottom: 120px; */
+}
+
+.menu{
+    background-color: aqua;
+    color: darkviolet;
+    height: 250px;
+    width: 450px;
+    margin-bottom: 60px;
+    text-align: center;
+    border-radius: 35px;
+    font-size: 1.5rem;
+    padding: 20px 0px 60px 0px;
+}
+
+.menu1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.footing{
+    /* border: 1px solid white; */
+    position: relative;
+    /* top: 100px; */
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+}
+
+
+
